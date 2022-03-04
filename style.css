@@ -672,13 +672,12 @@ background-color:orange;
 }}
 
 
-@media ( max-width:500px)
+@media ( max-width:900px)
 {
 
 
 *{
-	padding: 0;
-	margin: 0;
+	
 }
 
 
@@ -695,7 +694,7 @@ nav ul li a
 
 #foto img
 { 
-  height:10px;
+  height:200px;
 	width: 25%;
 	opacity: 1.0;
 	margin-left:50px;
@@ -710,7 +709,7 @@ animation: foto 2.5s linear;
 
 }
 
-@media (max-width: 858px)
+@media (max-width: 500px)
 {
 
 
@@ -767,7 +766,7 @@ box-shadow: 0px 10px 10px 0px ;
 
 #names h1 
 {height: 30px;
-	margin-left: 25px;  
+	margin-left: 20px;  
 	margin-top: -470px;
 	text-align: center; 
 	width:340px;
@@ -778,7 +777,7 @@ box-shadow: 0px 10px 10px 0px ;
 #names h2
 {
 	height: 30px;
-	margin-left: 25px; 
+	margin-left: 20px; 
 	margin-top:0px; 
 	text-align: center; 
 	width:340px;
@@ -904,7 +903,7 @@ padding:15px;
 	width: 210px;
 	margin-left: 70px;
 	text-align: center;
-	
+
 	background-color:transparent;
 	box-shadow: 0px 1px 5px 0px;
 	border-radius: 5px;
@@ -1307,7 +1306,1044 @@ margin-top: -10px;
 
 
 
+/**2**/
+
+@media (max-width: 600px)
+{
+
+
+   --header-height: 100px;
+    --header-sticky-height: 60px;
+	
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+
+	body
+	{
+		background-color: ;
+		background-attachment: 100%;
+		
+	margin: 0;
+	padding: 0;
+	min-width: 80%;
+	min-height: 100%;
+	}
+
+#top
+{
+	position: absolute;
+		height:2px; 
+
+
+	width: 100%;
+	background-color:black;
+border-radius:4px;
+}
+
+
+  #container
+  {
+  	height: 800px;
+  	width: 100%;
+  }
+.header
+{position: absolute;
+height: 100px;
+	width: 95%;
+	margin-top: -3px;
+	margin-left: 3px;
+	background-color:orange;
+	border-radius: 
+	opacity: 1.0;
+box-shadow: 0px 10px 10px 0px ;
+
+}
+
+#names h1 
+{height: 30px;
+	margin-left: 40px;  
+	margin-top: -470px;
+	text-align: center; 
+	width:340px;
+ border-radius: 10px; 
+	box-shadow: 5px 10px 10px 1px;color: black;
+}
+
+#names h2
+{
+	height: 30px;
+	margin-left: 40px; 
+	margin-top:0px; 
+	text-align: center; 
+	width:340px;
+ border-radius: 10px; 
+	box-shadow: 5px 10px 10px 1px;color: black;
+}
+#foto img
+{ 
+  height:190px;
+	width: 30%;
+	opacity: 1.0;
+	margin-left: 140px;
+	box-shadow: 15px 10px 10px 2px  ;
+	margin-top: 10px;
+   border-radius: 40px 10px;
+animation: foto 2.5s linear;
+margin-bottom: 90px;
+}
+
+
+	.check
+	{
+		display:block;
+		size:20px;
+	}
+	.checkbtn
+	{
+		display:block; 
+		font-size: 20px;
+	}
+	nav ul
+	{
+		position:absolute; 
+		width: 92%;
+		height:50vh;
+		background: orange;
+		border-radius: 10px;
+		display:block;
+		top: -700px;
+		text-align: center;
+		transition: all 0.5s;
+	}
+	nav ul li{
+		margin-top: 5px;
+		display:  block;
+		 padding-top: 40px; 
+		 padding-left:1px;
+	}
+	nav ul li a 
+	{
+		display:block;
+     font-size: 20px;
+
+
+	}
+	a:hover
+	{
+		background: green;
+		color:red;
+	}
+	
+#check:checked~ul
+	{
+		top: 70px;
+height: 500px;
+background:;
+	}
 
 
 
+#patentbox
+{
+	height:50px;
+clear: right;
+}
+
+
+
+#pantent p
+{color: white;
+	font-size:20px;
+margin-left: 10px;
+	text-align: center;
+margin-top: 30px;
+}
+
+
+#box1
+
+{/*#313131*/;
+	height: 160px;
+    border-radius: 5px;
+   border-style: outset;
+   
+float: center;
+width: 50%;
+
+margin-right: 20%;
+margin-left: 100px;
+margin-bottom:25px;
+overflow:hidden;
+
+
+}
+
+#pantent 
+{   
+	font-size:5px;
+	font-color:;
+height: 250px;
+width:100%;
+margin-top: 20%;
+margin-left: -20px;
+margin-bottom:200px;
+padding:15px;		
+	float: left;
+	font-weight: bold;
+}
+
+#invention p
+{font-size: 30px;
+	height: 40px;
+	width: 210px;
+	margin-left: 100px;
+	text-align: center;
+
+	background-color:transparent;
+	box-shadow: 0px 1px 5px 0px;
+	border-radius: 5px;
+}
+
+#pantent iframe
+{
+	float:center;
+	margin-top:-10px;
+	margin-left:60px;
+	border-radius: 15px;
+	background: white;
+	box-shadow: 5px 10px 10px 5px red;
+}
+
+#box1 figure
+	{
+		position: relative;
+		height:150%;
+		width:478%;
+		margin-top: -20%;
+		margin: 0px;
+		padding: 0px;
+		right: 0;
+
+		animation: 15s slider infinite;
+	}
+	#box1 figure img
+	{
+		width: 21%;
+		float:left;
+	}
+@keyframes slider
+{
+	0%
+	{
+		left: 0%;
+	}
+
+20%
+{
+	left: 0%;
+}
+
+25%
+{
+	left: -100%;
+}
+45%
+{
+	left: -100%;
+}
+
+50%
+{
+	left: -200%;
+}
+70%
+{
+	left: -200%
+}
+75%
+{
+	left: -300%
+}
+95%
+{
+	left:-300% 
+}
+
+}
+
+
+
+
+#pantent p
+{color: white;
+	font-size:16px;
+	float:left;
+
+
+	text-align:center;
+
+}
+
+
+
+#excelshow
+{
+	height: 400px;
+	width: 100%;
+}
+
+#excelstock img
+{
+	width: 70%;
+	height: 300px;
+	object-fit: cover;
+	transition: 0.5s;
+	margin-left:10%;
+	border-radius: 5px;
+	border-style: outset;
+}
+
+
+
+#para1 p
+{
+	color:white;
+font-weight: bold;
+font-size: 17px;
+float: left;
+text-align: left;
+height: 50px;
+
+}
+#excel
+{
+	clear:left;
+	height: 300px;
+	width: 100%;
+	float: left;
+	display:flex;
+	margin: 5% auto 0;
+	box-sizing: border-box;
+margin-bottom: 50px;
+	overflow: none;
+	
+}
+#excelstock
+{
+
+	margin: 0 1%;
+	flex-basis: 0;
+	flex-grow: 1;
+	transition: 0.5s;
+margin-right: 1px;
+
+}
+
+
+#excelstock:hover
+{
+	flex-basis: 100%;
+	 
+
+}
+
+
+
+#excelshow2
+{
+	height:600px;
+	width: 100%;
+}
+
+
+#para2 p
+{
+	color:white;
+font-weight: bold;
+font-size: 17px;
+float: right;
+text-align: left;
+height: 50px;
+
+}
+
+#excelie img
+{
+	width: 70%;
+	height: 300px;
+	object-fit: cover;
+	transition: 0.5s;
+	margin-left:10%;
+	border-radius: 5px;
+	border-style: outset;
+}
+
+#excelpl
+{clear: left;
+	height: 300px;
+	width: 100%;
+	display:flex;
+	margin: 5% auto 0;
+	box-sizing: border-box;
+	overflow: none;
+	float: right;
+	margin-bottom: 20px;
+	
+}
+#excelie
+{
+
+	margin: 0 1%;
+	flex-basis: 0;
+	flex-grow: 1;
+	transition: 0.5s;
+float: right;
+margin-right: 1px;
+
+
+}
+
+
+#excelie:hover
+{
+	flex-basis: 100%;
+	 
+
+}
+
+
+#typing
+{
+	height:300px;
+	width:300px;
+	clear: right;
+}
+
+
+#typing img
+{
+	float: center;
+	height:200px;
+	width: 100%;
+	margin-left:55px;
+	border-radius: 5px;
+	border-style: outset;
+}
+
+#typing p
+{
+	float :center;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	width: 100%;
+   margin-left: 55px;
+   margin-top:13%;
+   text-align: left;
+   
+margin-bottom: 20px;
+	 
+}
+
+
+#extra
+{
+	height:240px;
+width: 300px;
+
+
+
+}
+#box2
+
+{/*#313131*/;
+	height: 200px;
+	
+    border-radius: 5px;
+   border-style: outset;
+   
+float: center;
+width: 100%;
+margin-top: %;
+margin-right: 2%;
+margin-left: 60px;
+margin-bottom:25px;
+overflow:hidden;
+
+
+}
+
+
+
+#extrapara
+{clear: left;
+	float: center;
+	height: 200px;
+	width:100%;
+	margin-top: 20px;
+
+}
+
+#extrapara p
+{
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 260px;
+}
+
+
+#footer
+
+{
+ 
+ size: 100%;
+	clear: both; 
+	border-radius: 4px;
+	margin-top: : 100px;
+	padding: 10px;
+   height: 10px;
+	color: black;
+
+	background-color: transparent;
+	
+	font-size: 15px;
+   
+	font-family: Algerian;
+}
+
+
+
+
+#footer h3
+{color: black;
+	margin-left: 90px;
+margin-top: -10px;
+}
+
+
+
+}
+
+
+/**3**
+
+@media (max-width: 00px)
+{
+
+
+   --header-height: 100px;
+    --header-sticky-height: 60px;
+	
+
+html{
+	height: 100%;
+
+	width: 100%;
+}
+
+
+	body
+	{
+		background-color: ;
+		background-attachment: 100%;
+		
+	margin: 0;
+	padding: 0;
+	min-width: 90%;
+	min-height: 100%;
+	}
+
+#top
+{
+	position: absolute;
+		height:2px; 
+
+
+	width: 100%;
+	background-color:black;
+border-radius:4px;
+}
+
+
+  #container
+  {
+  	height: 800px;
+  	width: 100%;
+  }
+.header
+{position: absolute;
+height: 100px;
+	width: 95%;
+	margin-top: -3px;
+	margin-left: 3px;
+	background-color:orange;
+	border-radius: 
+	opacity: 1.0;
+box-shadow: 0px 10px 10px 0px ;
+
+}
+
+#names h1 
+{height: 30px;
+	margin-left: 60px;  
+	margin-top: -470px;
+	text-align: center; 
+	width:340px;
+ border-radius: 10px; 
+	box-shadow: 5px 10px 10px 1px;color: black;
+}
+
+#names h2
+{
+	height: 30px;
+	margin-left: 60px; 
+	margin-top:0px; 
+	text-align: center; 
+	width:340px;
+ border-radius: 10px; 
+	box-shadow: 5px 10px 10px 1px;color: black;
+}
+#foto img
+{ 
+  height:190px;
+	width: 30%;
+	opacity: 1.0;
+	margin-left: 130px;
+	box-shadow: 15px 10px 10px 2px  ;
+	margin-top: 10px;
+   border-radius: 40px 10px;
+animation: foto 2.5s linear;
+margin-bottom: 90px;
+}
+
+
+	.check
+	{
+		display:block;
+		size:20px;
+	}
+	.checkbtn
+	{
+		display:block; 
+		font-size: 20px;
+	}
+	nav ul
+	{
+		position:absolute; 
+		width: 92%;
+		height:50vh;
+		background: orange;
+		border-radius: 10px;
+		display:block;
+		top: -700px;
+		text-align: center;
+		transition: all 0.5s;
+	}
+	nav ul li{
+		margin-top: 5px;
+		display:  block;
+		 padding-top: 40px; 
+		 padding-left:1px;
+	}
+	nav ul li a 
+	{
+		display:block;
+     font-size: 20px;
+
+
+	}
+	a:hover
+	{
+		background: green;
+		color:red;
+	}
+	
+#check:checked~ul
+	{
+		top: 70px;
+height: 500px;
+background:;
+	}
+
+
+
+#patentbox
+{
+	height:50px;
+clear: right;
+}
+
+
+
+#pantent p
+{color: white;
+	font-size:20px;
+margin-left: 10px;
+	text-align: center;
+margin-top: 30px;
+}
+
+
+#box1
+
+{/*#313131*/;
+	height: 160px;
+    border-radius: 5px;
+   border-style: outset;
+   
+float: center;
+width: 50%;
+
+margin-right: 20%;
+margin-left: 100px;
+margin-bottom:25px;
+overflow:hidden;
+
+
+}
+
+#pantent 
+{   
+	font-size:5px;
+	font-color:;
+height: 250px;
+width:100%;
+margin-top: 20%;
+margin-left: -20px;
+margin-bottom:200px;
+padding:15px;		
+	float: left;
+	font-weight: bold;
+}
+
+#invention p
+{font-size: 30px;
+	height: 40px;
+	width: 210px;
+	margin-left: 120px;
+	text-align: center;
+
+	background-color:transparent;
+	box-shadow: 0px 1px 5px 0px;
+	border-radius: 5px;
+}
+
+#pantent iframe
+{
+	float:center;
+	margin-top:10px;
+	margin-left:100px;
+	border-radius: 15px;
+	background: white;
+	box-shadow: 5px 10px 10px 5px red;
+}
+
+#box1 figure
+	{
+		position: relative;
+		height:150%;
+		width:478%;
+		margin-top: -20%;
+		margin: 0px;
+		padding: 0px;
+		right: 0;
+
+		animation: 15s slider infinite;
+	}
+	#box1 figure img
+	{
+		width: 21%;
+		float:left;
+	}
+@keyframes slider
+{
+	0%
+	{
+		left: 0%;
+	}
+
+20%
+{
+	left: 0%;
+}
+
+25%
+{
+	left: -100%;
+}
+45%
+{
+	left: -100%;
+}
+
+50%
+{
+	left: -200%;
+}
+70%
+{
+	left: -200%
+}
+75%
+{
+	left: -300%
+}
+95%
+{
+	left:-300% 
+}
+
+}
+
+
+
+
+#pantent p
+{color: white;
+	font-size:16px;
+	float:left;
+
+
+	text-align:center;
+
+}
+
+
+
+#excelshow
+{
+	height: 400px;
+	width: 100%;
+}
+
+#excelstock img
+{
+	width: 70%;
+	height: 300px;
+	object-fit: cover;
+	transition: 0.5s;
+	margin-left:10%;
+	border-radius: 5px;
+	border-style: outset;
+}
+
+
+
+#para1 p
+{
+	color:white;
+font-weight: bold;
+font-size: 17px;
+float: left;
+text-align: left;
+height: 50px;
+
+}
+#excel
+{
+	clear:left;
+	height: 300px;
+	width: 100%;
+	float: left;
+	display:flex;
+	margin: 5% auto 0;
+	box-sizing: border-box;
+margin-bottom: 50px;
+	overflow: none;
+	
+}
+#excelstock
+{
+
+	margin: 0 1%;
+	flex-basis: 0;
+	flex-grow: 1;
+	transition: 0.5s;
+margin-right: 1px;
+
+}
+
+
+#excelstock:hover
+{
+	flex-basis: 100%;
+	 
+
+}
+
+
+
+#excelshow2
+{
+	height:600px;
+	width: 100%;
+}
+
+
+#para2 p
+{
+	color:white;
+font-weight: bold;
+font-size: 17px;
+float: right;
+text-align: left;
+height: 50px;
+
+}
+
+#excelie img
+{
+	width: 70%;
+	height: 300px;
+	object-fit: cover;
+	transition: 0.5s;
+	margin-left:10%;
+	border-radius: 5px;
+	border-style: outset;
+}
+
+#excelpl
+{clear: left;
+	height: 300px;
+	width: 100%;
+	display:flex;
+	margin: 5% auto 0;
+	box-sizing: border-box;
+	overflow: none;
+	float: right;
+	margin-bottom: 20px;
+	
+}
+#excelie
+{
+
+	margin: 0 1%;
+	flex-basis: 0;
+	flex-grow: 1;
+	transition: 0.5s;
+float: right;
+margin-right: 1px;
+
+
+}
+
+
+#excelie:hover
+{
+	flex-basis: 100%;
+	 
+
+}
+
+
+#typing
+{
+	height:300px;
+	width:300px;
+	clear: right;
+}
+
+
+#typing img
+{
+	float: center;
+	height:200px;
+	width: 100%;
+	margin-left:80px;
+	border-radius: 5px;
+	border-style: outset;
+}
+
+#typing p
+{
+	float :center;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	width: 100%;
+   margin-left: 80px;
+   margin-top:13%;
+   text-align: left;
+   
+margin-bottom: 20px;
+	 
+}
+
+
+#extra
+{
+	height:240px;
+width: 300px;
+
+
+
+}
+#box2
+
+{/*#313131*/;
+	height: 200px;
+	
+    border-radius: 5px;
+   border-style: outset;
+   
+float: center;
+width: 100%;
+margin-top: %;
+margin-right: 2%;
+margin-left: 85px;
+margin-bottom:25px;
+overflow:hidden;
+
+
+}
+
+
+
+#extrapara
+{clear: left;
+	float: center;
+	height: 200px;
+	width:100%;
+	margin-top: 20px;
+
+}
+
+#extrapara p
+{
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 260px;
+}
+
+
+#footer
+
+{
+ 
+ size: 100%;
+	clear: both; 
+	border-radius: 4px;
+	margin-top: : 100px;
+	padding: 10px;
+   height: 10px;
+	color: black;
+
+	background-color: transparent;
+	
+	font-size: 15px;
+   
+	font-family: Algerian;
+}
+
+
+
+/**4**/
 
