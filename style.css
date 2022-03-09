@@ -8,7 +8,7 @@ body{
 	position: absolute;
 	min-height: 100%;
 	min-width: 90%;
-}
+} 
 
 
 
@@ -711,7 +711,7 @@ animation: foto 2.5s linear;
 
 }
 
-@media (max-width: 500px)
+@media (max-width: 800px)
 {
 
 
@@ -756,10 +756,10 @@ border-radius:4px;
 .header
 {position: absolute;
 height: 100px;
-	width: 95%;
+	width: 99%;
 	margin-top: 30px;
 	margin-left: 3px;
-	background-color:orange;
+	background-color:transparent;
 	border-radius: 
 	opacity: 1.0;
 box-shadow: 0px 10px 10px 0px ;
@@ -769,11 +769,11 @@ box-shadow: 0px 10px 10px 0px ;
 #names h1 
 {height: 30px;
 	margin-left: 20px;  
-	margin-top: -470px;
+	margin-top: -340px;
 	text-align: center; 
 	width:340px;
  border-radius: 10px; 
-	box-shadow: 5px 10px 10px 1px;color: black;
+	box-shadow: 5px 10px 10px 1px;color: white;
 }
 
 #names h2
@@ -784,16 +784,16 @@ box-shadow: 0px 10px 10px 0px ;
 	text-align: center; 
 	width:340px;
  border-radius: 10px; 
-	box-shadow: 5px 10px 10px 1px;color: black;
+	box-shadow: 5px 10px 10px 1px;color: white;
 }
 #foto img
 { 
   height:190px;
 	width: 30%;
 	opacity: 1.0;
-	margin-left: 110px;
+	margin-left:410px;
 	box-shadow: 15px 10px 10px 2px  ;
-	margin-top: 20px;
+	margin-top: -150px;
    border-radius: 40px 10px;
 animation: foto 2.5s linear;
 margin-bottom: 120px;
@@ -845,7 +845,9 @@ margin-bottom: 120px;
 	{
 		top: 70px;
 height: 500px;
-background:;
+width: 100%;
+margin-left:;
+background:black;
 	}
 
 
@@ -870,7 +872,7 @@ margin-top: 30px;
 #box1
 
 {/*#313131*/;
-	height: 160px;
+	height: 210px;
     border-radius: 5px;
    border-style: outset;
    
@@ -878,7 +880,7 @@ float: center;
 width: 50%;
 
 margin-right: 20%;
-margin-left: 80px;
+margin-left: 160px;
 margin-bottom:25px;
 overflow:hidden;
 
@@ -903,7 +905,7 @@ padding:15px;
 {font-size: 30px;
 	height: 40px;
 	width: 210px;
-	margin-left: 70px;
+	margin-left: 240px;
 	text-align: center;
 
 	background-color:transparent;
@@ -915,7 +917,7 @@ padding:15px;
 {
 	float:center;
 	margin-top:10px;
-	margin-left:50px;
+	margin-left:200px;
 	border-radius: 15px;
 	background: white;
 	margin-bottom: 20px;
@@ -1133,7 +1135,7 @@ margin-right: 1px;
 	float: center;
 	height:200px;
 	width: 100%;
-	margin-left:40px;
+	margin-left:200px;
 	border-radius: 5px;
 	border-style: outset;
 }
@@ -1145,7 +1147,7 @@ margin-right: 1px;
 	font-size: 17px;
 	font-weight: bold;
 	width: 100%;
-   margin-left: 40px;
+   margin-left: 190px;
    margin-top:13%;
    text-align: left;
    
@@ -1174,7 +1176,7 @@ float: center;
 width: 100%;
 margin-top: %;
 margin-right: 2%;
-margin-left: 40px;
+margin-left: 200px;
 margin-bottom:25px;
 overflow:hidden;
 
@@ -1253,7 +1255,7 @@ overflow:hidden;
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
-	margin-left: 230px;
+	margin-left: 360px;
 }
 
 
@@ -1288,7 +1290,7 @@ size: 30px;
 	margin-top: : 100px;
 	padding: 10px;
    height: 10px;
-	color: black;
+	color: white;
 
 	background-color: transparent;
 	
@@ -1298,8 +1300,8 @@ size: 30px;
 }
 
 #footer h3
-{color: black;
-	margin-left: 70px;
+{color: white;
+	margin-left: 200px;
 margin-top: -10px;
 }
 
@@ -1311,7 +1313,7 @@ margin-top: -10px;
 
 /**2**/
 
-@media (max-width: 700px)
+@media (max-width: 600px )
 {
 
 
@@ -1359,7 +1361,7 @@ border-radius:4px;
 .header
 {position: absolute;
 height: 100px;
-	width: 99%;
+	width: 100%;
 
 
 	margin-top: 5px;
@@ -1453,7 +1455,8 @@ margin-bottom: 90px;
 	{
 		top: 70px;
 height: 500px;
-background:;
+width: 100%;
+background:black;
 	}
 
 
@@ -1843,9 +1846,9 @@ margin-top: -10px;
 }
 
 
-/**3**
+/**3**/
 
-@media (max-width: 00px)
+@media (min-width: 800px ) and (max-width: 1000px)
 {
 
 
@@ -1891,10 +1894,10 @@ border-radius:4px;
 .header
 {position: absolute;
 height: 100px;
-	width: 95%;
+	width: 99%;
 	margin-top: -3px;
 	margin-left: 3px;
-	background-color:orange;
+	background-color:transparent;
 	border-radius: 
 	opacity: 1.0;
 box-shadow: 0px 10px 10px 0px ;
@@ -1904,11 +1907,11 @@ box-shadow: 0px 10px 10px 0px ;
 #names h1 
 {height: 30px;
 	margin-left: 60px;  
-	margin-top: -470px;
+	margin-top: -370px;
 	text-align: center; 
 	width:340px;
  border-radius: 10px; 
-	box-shadow: 5px 10px 10px 1px;color: black;
+	box-shadow: 5px 10px 10px 1px;color: white;
 }
 
 #names h2
@@ -1919,16 +1922,16 @@ box-shadow: 0px 10px 10px 0px ;
 	text-align: center; 
 	width:340px;
  border-radius: 10px; 
-	box-shadow: 5px 10px 10px 1px;color: black;
+	box-shadow: 5px 10px 10px 1px;color: white;
 }
 #foto img
 { 
-  height:190px;
+  height:290px;
 	width: 30%;
 	opacity: 1.0;
-	margin-left: 130px;
+	margin-left: 450px;
 	box-shadow: 15px 10px 10px 2px  ;
-	margin-top: 10px;
+	margin-top: -190px;
    border-radius: 40px 10px;
 animation: foto 2.5s linear;
 margin-bottom: 90px;
@@ -1973,14 +1976,15 @@ margin-bottom: 90px;
 	a:hover
 	{
 		background: green;
-		color:red;
+		color:black;
 	}
 	
 #check:checked~ul
 	{
 		top: 70px;
 height: 500px;
-background:;
+width: 100%;
+background:black;
 	}
 
 
@@ -1996,7 +2000,7 @@ clear: right;
 #pantent p
 {color: white;
 	font-size:20px;
-margin-left: 10px;
+margin-left: 80px;
 	text-align: center;
 margin-top: 30px;
 }
@@ -2004,8 +2008,8 @@ margin-top: 30px;
 
 #box1
 
-{/*#313131*;
-	height: 160px;
+{/*#313131*/;
+	height: 240px;
     border-radius: 5px;
    border-style: outset;
    
@@ -2013,7 +2017,7 @@ float: center;
 width: 50%;
 
 margin-right: 20%;
-margin-left: 100px;
+margin-left: 210px;
 margin-bottom:25px;
 overflow:hidden;
 
@@ -2038,11 +2042,11 @@ padding:15px;
 {font-size: 30px;
 	height: 40px;
 	width: 210px;
-	margin-left: 120px;
+	margin-left: 320px;
 	text-align: center;
 
 	background-color:transparent;
-	box-shadow: 0px 1px 5px 0px;
+	box-shadow: 0px 1px 5px 0px white;
 	border-radius: 5px;
 }
 
@@ -2050,10 +2054,10 @@ padding:15px;
 {
 	float:center;
 	margin-top:10px;
-	margin-left:100px;
+	margin-left:280px;
 	border-radius: 15px;
 	background: white;
-	box-shadow: 5px 10px 10px 5px red;
+	box-shadow: 5px 10px 10px 5px white;
 }
 
 #box1 figure
@@ -2279,9 +2283,9 @@ margin-right: 1px;
 	font-size: 17px;
 	font-weight: bold;
 	width: 100%;
-   margin-left: 80px;
-   margin-top:13%;
-   text-align: left;
+   margin-left: 430px;
+   margin-top:-140px;
+   
    
 margin-bottom: 20px;
 	 
@@ -2298,7 +2302,7 @@ width: 300px;
 }
 #box2
 
-{/*#313131*;
+{/*#313131*/;
 	height: 200px;
 	
     border-radius: 5px;
@@ -2320,7 +2324,7 @@ overflow:hidden;
 #extrapara
 {clear: left;
 	float: center;
-	height: 200px;
+	height: 90px;
 	width:100%;
 	margin-top: 20px;
 
@@ -2330,9 +2334,10 @@ overflow:hidden;
 {
 	width: 100%;
 	color: white;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
-	margin-left: 260px;
+	margin-left: 560px;
+	margin-top: -180px;
 }
 
 
@@ -2355,6 +2360,11 @@ overflow:hidden;
 	font-family: Algerian;
 }
 
+#footer h3
+{
+	color: white;
+	margin-left: 300px;
+}
 
 
 /**4**/
