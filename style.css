@@ -8,6 +8,7 @@ body{
 	position: absolute;
 	min-height: 100%;
 	min-width: 90%;
+	font-family: poppins;
 } 
 
 
@@ -164,7 +165,7 @@ nav ul li a
 	border-radius: 4.5px;
 
 }
-a:hover
+nav ul li a:hover
 {color: black;
 	background:green;
 
@@ -446,6 +447,40 @@ margin-right: 40px;
 	 
 
 }
+
+
+#top1
+{
+	position :fixed;
+	z-index: 9;
+	bottom: 20px;
+	right: 5px; 
+	background-color: black;
+		height: 50px;
+	width: 40px;
+text-align: center;
+border-radius: 11px;
+box-shadow: 1px 1px 0px 1px white;
+text-decoration: none;
+}
+#top1 a
+{
+	
+		border-radius: 5px;
+	font-size: 40px;
+	color: white;
+	display: scroll;
+	cursor: pointer;
+	text-decoration: none;
+  text-align: center;
+
+}
+#top1 span
+{
+	color: white;
+	font-size: 24px;
+}
+
 
 
 #typing
@@ -836,7 +871,7 @@ margin-bottom: 120px;
 
 
 	}
-	a:hover
+	nav ul li a:hover
 	{
 		background: green;
 		color:red;
@@ -1376,7 +1411,7 @@ box-shadow: 1px 5px 10px 0px ;
 
 #names h1 
 {height: 30px;
-	margin-left: 10px;  
+	margin-left: 50px;  
 	margin-top: -470px;
 	text-align: center; 
 	width:370px;
@@ -1388,7 +1423,7 @@ box-shadow: 1px 5px 10px 0px ;
 #names h2
 {
 	height: 30px;
-	margin-left: 10px; 
+	margin-left: 50px; 
 	margin-top:0px; 
 	text-align: center; 
 	width:370px;
@@ -1446,7 +1481,7 @@ margin-bottom: 90px;
 
 
 	}
-	a:hover
+	nav ul li a:hover
 	{
 		background: green;
 		color:red;
@@ -2005,7 +2040,7 @@ nav ul li a
 	border-radius: 4.5px;
 
 }
-a:hover
+nav ul li a:hover
 {
 	background:green;
 border-width: 10px;
